@@ -238,6 +238,7 @@ body {
 
 .banner-content p {
     margin: 15px 0;
+	margin-bottom: 40px;
     color: #818E9D;
     line-height: 1.6;
 }
