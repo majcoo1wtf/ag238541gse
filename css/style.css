@@ -24,7 +24,7 @@ body {
     align-items: center;
 }
 
-/* Default: show desktop logo, hide mobile logo */
+
 .logo-desktop {
     display: block;
 }
@@ -33,27 +33,23 @@ body {
     display: none;
 }
 
-/* Align buttons properly in the navbar */
 .btn-container {
     display: flex;
     align-items: center;
-    gap: 10px; /* Space between buttons */
+    gap: 10px; 
 }
 
-/* Media query for screens smaller than 600px */
 @media (max-width: 600px) {
-    /* Hide desktop logo */
     .logo-desktop {
         display: none;
     }
 
-    /* Show mobile logo */
     .logo-mobile {
         display: block;
     }
 
     .navbar {
-        padding: 10px 20px; /* Adjust padding for smaller screens */
+        padding: 10px 20px; 
     }
 
     .logo {
@@ -62,7 +58,7 @@ body {
     }
 
     .btn-container a {
-        margin-right: 5px; /* Adjust spacing between buttons */
+        margin-right: 5px;
     }
 }
 
@@ -131,9 +127,8 @@ body {
     transition: background-color 0.3s ease;
 }
 
-/* Telegram button styles */
 .telegram-btn {
-    background-color: #0088cc; /* Telegram's primary color */
+    background-color: #0088cc; 
     color: white;
     border: 2px solid #0088cc;
 }
@@ -143,9 +138,9 @@ body {
     border-color: #0077b5;
 }
 
-/* WhatsApp button styles */
+
 .whatsapp-btn {
-    background-color: #25D366; /* WhatsApp's primary color */
+    background-color: #25D366; 
     color: white;
     border: 2px solid #25D366;
 }
@@ -221,8 +216,8 @@ body {
     box-sizing: border-box;
     width: 100%;
     margin-bottom: 50px;
-    height: auto; /* Auto height to adjust based on content */
-    flex-direction: row; /* Default to row direction for desktop */
+    height: auto; 
+    flex-direction: row; 
 }
 
 .banner-content {
@@ -246,7 +241,7 @@ body {
 .banner-image {
     max-width: 60%;
     z-index: 1;
-    text-align: right; /* Align image to the right on desktop */
+    text-align: right; 
 }
 
 .banner-image img {
@@ -258,7 +253,7 @@ body {
 /* Responsive Design for Banner */
 @media (max-width: 1024px) {
     .banner {
-        padding: 20px; /* Add padding around content */
+        padding: 20px; 
     }
 
     .banner-content {
@@ -272,27 +267,27 @@ body {
 
 @media (max-width: 800px) {
     .banner {
-        flex-direction: column; /* Stack content vertically */
-        align-items: center; /* Center align items */
-        padding: 20px; /* Add padding around content */
+        flex-direction: column;
+        align-items: center;
+        padding: 20px; 
         text-align: center;
     }
 
     .banner-content {
         max-width: 100%;
         text-align: center;
-        margin-bottom: 20px; /* Space between text and image */
+        margin-bottom: 20px; 
     }
 
     .banner-image {
         max-width: 100%;
-        text-align: center; /* Center the image */
+        text-align: center;
     }
 
     .banner-image img {
-        max-width: 100%; /* Ensure image takes full width */
+        max-width: 100%; 
         width: auto;
-        height: auto; /* Maintain aspect ratio */
+        height: auto; 
     }
 
     .btn-container {
@@ -300,26 +295,26 @@ body {
         justify-content: center;
         align-items: center;
         gap: 5px;
-        flex-wrap: wrap; /* Ensure buttons don't overflow on very small screens */
+        flex-wrap: wrap; 
     }
 
     .btn-container a {
-        width: auto; /* Let buttons have their default width */
+        width: auto; 
         text-align: center;
     }
 }
 
 @media (max-width: 480px) {
     .banner-content h1 {
-        font-size: 1.5em; /* Reduce font size for smaller screens */
+        font-size: 1.5em; 
     }
 
     .banner-content p {
-        font-size: 1em; /* Adjust paragraph font size */
+        font-size: 1em;
     }
 
     .btn-container a {
-        width: auto; /* Let buttons have their default width */
+        width: auto;
         text-align: center;
     }
 }
